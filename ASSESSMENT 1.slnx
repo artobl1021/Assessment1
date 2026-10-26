@@ -4,6 +4,6 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Drone Flight Clearance/Drone Flight Clearance.vcxproj" Id="bdfd8fd6-f7ff-49bf-95cd-fb55872291c1" />
+  <Project Path="Journey Fuel Cost/Journey Fuel Cost.vcxproj" Id="040bedd2-ea55-44bc-a757-a18ae5806754" />
   <Project Path="PIN Access Controller/PIN Access Controller.vcxproj" Id="830bcdb2-8284-4d65-af98-2b368060d6a0" />
-  <Project Path="Project1/Project1.vcxproj" Id="040bedd2-ea55-44bc-a757-a18ae5806754" />
 </Solution>

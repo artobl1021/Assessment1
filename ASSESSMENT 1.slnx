@@ -4,6 +4,8 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Drone Flight Clearance/Drone Flight Clearance.vcxproj" Id="bdfd8fd6-f7ff-49bf-95cd-fb55872291c1" />
+  <Project Path="Greenhouse Reading Controller/Greenhouse Reading Controller.vcxproj" Id="749af01c-e563-467e-b155-7e60c5b9fd97" />
   <Project Path="Journey Fuel Cost/Journey Fuel Cost.vcxproj" Id="040bedd2-ea55-44bc-a757-a18ae5806754" />
+  <Project Path="Paint Coverage Planner/Paint Coverage Planner.vcxproj" Id="a1434c90-a858-4ebf-8427-b45bad7022b5" />
   <Project Path="PIN Access Controller/PIN Access Controller.vcxproj" Id="830bcdb2-8284-4d65-af98-2b368060d6a0" />
 </Solution>

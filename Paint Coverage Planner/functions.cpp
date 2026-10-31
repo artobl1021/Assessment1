@@ -16,8 +16,11 @@ int calculateCans(int totalArea, int coveragePerCan) {
 	int cansRoughly = totalArea / coveragePerCan;
 	// Calculate remainder of the division
 	int remainder = totalArea % coveragePerCan;
-	// If we have remainder we add one more can to the required cans number
-	// and return cansRoughly.
+	// If we have remainder we add one more can to the required cans number.
+	// Remainder prevents underestimating number of cans and ensures
+	// that the paint in the cans will cover the whole area. For example: if we would have 30m2
+	// and we would have to divide it by 12 we would get 2.5 cans. By default the decimal part would be cut  
+	// off, giving 2 and user would fall short on paint. By using remainder, we add 1 can extra that number.
 	if (remainder > 0) {
 		cansRequired = cansRoughly + 1;
 		return cansRequired;

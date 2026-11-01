@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-#include "header.h"
+#include "Paint_coverage.h"
 using namespace std;
 
 const int COVERAGE = 12;

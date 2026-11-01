@@ -10,4 +10,4 @@ void calculateCosts(
 	double& subtotal, 
 	double& tax, 
 	double& total);
-#endif // !PAINT_COVERAGE_H
+#endif 
